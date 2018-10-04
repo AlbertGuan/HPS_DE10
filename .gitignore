@@ -1,5 +1,6 @@
 .metadata
 bin/
+Debug/
 tmp/
 *.tmp
 *.bak
