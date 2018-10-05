@@ -98,7 +98,7 @@ int GSensor(int argc, char *argv[])
 
 	// init
 	// gsensor i2c address: 101_0011
-	int addr = 0b01010011;
+	int addr = 0x53;
 	if (ioctl(file, I2C_SLAVE, addr) < 0)
 	{
 		printf("Failed to acquire bus access and/or talk to slave.\n");
